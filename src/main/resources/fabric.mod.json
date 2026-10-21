@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nivek_first_person",
+  "version": "${version}",
+  "name": "Nivek First Person",
+  "description": "Mostra o corpo inteiro do jogador na câmera em primeira pessoa.",
+  "authors": ["Nivek"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nivek.firstperson.NivekFirstPersonClient"]
+  },
+  "mixins": ["nivek_first_person.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
